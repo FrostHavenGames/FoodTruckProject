@@ -70,6 +70,9 @@ public class FoodTruckApp {
 				if (count > 0 && total > 0) {
 					System.out.printf("\nHere is the average rating of all the food trucks: %.2f\n\n", total / count);
 				}
+				else {
+					System.out.println("\nHere is the average rating of all the food trucks: 0\n\n");
+				}
 				
 				break;
 				
